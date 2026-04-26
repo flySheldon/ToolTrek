@@ -1,12 +1,35 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Kaldi"
+baseURL = "https://tool-trek-b1uy.vercel.app/"
+languageCode = "zh-cn"
+title = "ToolTrek - AI工具导航"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+# 使用 PaperMod 主题（自动支持暗色模式）
+theme = "hugo-PaperMod"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
 
 [params]
-images = ["img/og-image.jpg"]
+  # 默认启用暗色模式
+  defaultTheme = "dark"
+  # 显示切换按钮
+  ShowThemeToggle = true
+  # 首页显示文章列表
+  ShowReadingTime = true
+  ShowShareButtons = false
+
+# 主导航菜单
+[[menu.main]]
+  name = "🏠 首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "✍️ 文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "🧭 AI工具"
+  url = "/tools/"
+  weight = 3
