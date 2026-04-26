@@ -1,0 +1,47 @@
+/* 全局暗色背景 + 白色文字 */
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+}
+
+a {
+  color: #58a6ff;
+}
+
+a:hover {
+  color: #79c0ff;
+}
+
+/* 头部导航美化 */
+header, nav {
+  background-color: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+/* 文章内容区域 */
+main {
+  background-color: #0d1117;
+}
+
+/* 卡片/列表项美化 */
+article, .post-item, .tool-item {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* 按钮样式 */
+button, .btn {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  color: #e6edf3;
+}
+
+/* 页脚 */
+footer {
+  background-color: #161b22;
+  border-top: 1px solid #30363d;
+  color: #8b949e;
+}
