@@ -4,12 +4,9 @@ title = "ToolTrek - AI工具导航"
 theme = "pico"
 
 [params]
-  # 站点描述
   description = "发现最实用的AI工具，用真实评测帮你选对AI搭档。"
-  # 启用自定义CSS（下面会创建）
   customCSS = ["/css/custom.css"]
 
-# 主导航菜单
 [[menu.main]]
   name = "🏠 首页"
   url = "/"
